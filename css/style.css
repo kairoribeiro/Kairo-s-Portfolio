@@ -1,0 +1,55 @@
+html {
+    box-sizing: border-box;
+}
+
+The Universal Selector
+*, /* All elements*/
+*::before, /* All ::before pseudo-elements */
+*::after { /* All ::after pseudo-elements */
+    /* height & width will now include border & padding by default
+       but can be over-ridden as needed */
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #AEAC9A;
+    font-family: sans-serif;
+    margin: 0;
+} 
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+nav {
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    height: 28px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav > div {
+    font-size: 18px;
+    margin: 0 10px;
+} 
+
+nav > div:first-child {
+    margin-right: auto;
+}
+
+
+/* .profile {
+    background-color: #AEAC9A;
+}
+
+.skills {
+    background-color:aqua;
+}
+
+.my-work {
+    background-color: blueviolet;
+}
+

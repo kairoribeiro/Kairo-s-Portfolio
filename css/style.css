@@ -71,16 +71,16 @@ aside {
     /* height: 400px; */
 }
 
-.aside-center {
+/* .aside-center {
     display: flex;
     border: 5px solid red;
-}
+} */
 
 
 .picture > img {
-  width: 70%;
-
-
+  width: 40%;
+  margin-top: 40px;
+  border-radius: 50%;
 }
 
 

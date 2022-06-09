@@ -46,7 +46,7 @@ a:hover {
 }
 
 nav {
-    background-color: rgb(220, 220, 87);
+    background-color: rgb(233, 233, 28);
     display: flex;
     flex-direction: row;
     height: 35px;
@@ -204,7 +204,7 @@ article > div {
 
 
 footer {
-    background-color: rgb(85, 46, 65);
+    background-color: rgb(198, 181, 189);
     /* height: 500px; */
     /* font-size: 50px; */
     text-align: center;
@@ -223,7 +223,7 @@ footer {
   
 h1 {
     font-size: 50px;
-   margin-top: 40px;
+    margin: 40px 0 30px;
 }
 
 h2 {
@@ -234,34 +234,28 @@ h3 {
     font-size: 10px;
 }
 
-.card {
+/* .card {
   /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(143, 143, 104, 0.2);
-  transition: 0.3s;
+  /* box-shadow: 0 4px 8px 0 rgba(143, 143, 104, 0.2); */
+  /* transition: 0.3s; */
   
-}
+/* } */
 
 /* On mouse-over, add a deeper shadow */
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(230, 222, 8, 0.2);
-}
+/* .card:hover { */
+  /* box-shadow: 0 8px 16px 0 rgba(230, 222, 8, 0.2); */
+/* } */
 
 /* Add some padding inside the card container */
-.container {
-  padding: 2px 16px;
-}
-
-
-
-
-
-
+/* .container { */
+  /* padding: 2px 16px; */
+/* } */ 
 
 
 
 .projects {
   /* background-color: yellow; */
-  padding: 5px 20px 20px;
+  padding: 5px 20px 50px;
 }
 
 .project-pic {
@@ -281,21 +275,22 @@ h3 {
 } */
 
 .project-container {
-  text-align: center; 
+  text-align: center;
   width: 21.875rem;
-   padding: 1rem;
+  /* padding: 1rem; */
 }
 
 .project-container p {
   padding: 0.4rem;
 }
 
+
 .project-card {
-  background-color: rgb(222, 231, 248);
-  border-radius: 15px;
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
   margin: 10px;
-  width: 100px;
 }
 
 

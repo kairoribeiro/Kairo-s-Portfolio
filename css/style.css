@@ -32,7 +32,7 @@ nav, article, footer {
 
 a {
     text-decoration: none;
-    color: rgb(107, 107, 232); 
+    color: rgb(116, 116, 207); 
 }
 nav div a,
 nav div a:after,
@@ -46,7 +46,7 @@ a:hover {
 }
 
 nav {
-    background-color: rgb(241, 241, 5);
+    background-color: rgb(220, 220, 87);
     display: flex;
     flex-direction: row;
     height: 35px;
@@ -191,24 +191,32 @@ article > div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  position: relative;
+  /* position: relative;  it was making the icons pass over the navbar */
   margin: 10px;
 
+}
+
+.skill-icon:hover {
+  height: 11%;
+  transition: 0.3s;
 }
 
 
 footer {
     background-color: rgb(85, 46, 65);
     height: 500px;
-    font-size: 50px;
+    /* font-size: 50px; */
     text-align: center;
+    align-items: center;
     display: grid;
+    justify-content: space-evenly;
+    flex-direction: row;
     
 }
 
 .flex-container {
 	justify-content: center;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: space-evenly;
 }
 
@@ -216,8 +224,6 @@ footer {
 h1 {
     font-size: 50px;
    margin-top: 40px;
-   
-
 }
 
 h2 {
@@ -228,3 +234,19 @@ h3 {
     font-size: 10px;
 }
 
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(143, 143, 104, 0.2);
+  transition: 0.3s;
+  
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(230, 222, 8, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}

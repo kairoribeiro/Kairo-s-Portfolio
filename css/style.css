@@ -68,6 +68,9 @@ nav > div:first-child {
 
 aside {
     background-color: rgb(218, 206, 229);
+    display: grid;
+    
+    
     /* height: 400px; */
 }
 
@@ -166,69 +169,32 @@ aside > ul li:nth-child(3) a:before {
 main {
     background-color: #AEAC9A;
     margin: 60px 20px;
-    
+    display: grid;
+  
 }
 
 article {
     background-color:rgb(161, 130, 150);
     height: 400px;
     text-align: center;
+    display: grid;
+    
 }
+article > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 
-article > ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-article > ul li {
-    list-style: none;
-    margin: 0 15px;
-  }
-  
-article > ul li a {
-    position: absolute; /* from absolute */
-    display: block;
-    width: 60px;
-    height: 60px;
-    text-align: center;
-    line-height: 63px;
-    background: #333;
-    border-radius: 50%;
-    font-size: 30px;
-    color: #666;
-    transition: .5s;
-  }
-  
-article > ul li a::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background: #ffee10;
-    transition: .5s;
-    transform: scale(.9);
-    z-index: -1;
-  }
-  
-article >  ul li a:hover::before {
-    transform: scale(1.1);
-    box-shadow: 0 0 15px #ffee10;
-  }
-  
-article > ul li a:hover {
-    color: #ffee10;
-    box-shadow: 0 0 5px #ffee10;
-    text-shadow: 0 0 5px #ffee10;
-  }
+}
+.skill-icon {
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  margin: 10px;
 
+}
 
 
 footer {
@@ -236,11 +202,11 @@ footer {
     height: 500px;
     font-size: 50px;
     text-align: center;
+    display: grid;
+    
 }
 
 .flex-container {
-   
-	display: flex; 
 	justify-content: center;
   flex-direction: column;
   justify-content: space-evenly;
@@ -250,6 +216,7 @@ footer {
 h1 {
     font-size: 50px;
    margin-top: 40px;
+   
 
 }
 

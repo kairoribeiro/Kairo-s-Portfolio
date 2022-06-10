@@ -7,7 +7,7 @@ document.getElementById("work1Btn").onclick = function () {
 };
 
 document.getElementById("work2Btn").onclick = function () {
-    location.href = "https://kairo1.netlify.app/";
+    location.href = "https://kairo1.netlify.app/"; 
 };
 
 document.getElementById("work3Btn").onclick = function () {

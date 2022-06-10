@@ -18,7 +18,6 @@ body {
     display: grid;
     min-height: 100vh;
     grid-template-columns: 40% 60%;
-    /* grid-template-rows: auto 1fr 1fr 2fr 2fr; */
     grid-template-areas: 
         "nav nav"
         "aside main"
@@ -70,14 +69,8 @@ aside {
     background-color: rgb(218, 206, 229);
     display: grid;
     
-    
-    /* height: 400px; */
 }
 
-/* .aside-center {
-    display: flex;
-    border: 5px solid red;
-} */
 
 
 .picture > img {
@@ -99,9 +92,7 @@ aside > ul {
     align-items: center;
     padding-left: 0;
     justify-content: space-around;
-    /* top: 60%;÷
-    left: 20%;÷ */
-    /* transform: translate(-50%, -50%);  */
+
     
   }
   
@@ -192,7 +183,6 @@ article > div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* position: relative;  it was making the icons pass over the navbar */
   margin: 10px;
 
 }
@@ -205,18 +195,48 @@ article > div {
 
 footer {
     background-color: rgb(198, 181, 189);
-    /* height: 500px; */
-    /* font-size: 50px; */
     text-align: center;
     align-items: center;
-    /* display: flex; */
     justify-content: space-evenly;
     
 }
 
+.projects {
+  padding: 5px 20px 50px;
+}
+
+.project-pic {
+  width: 65%;
+  height: 60%;
+}
+
+.projects-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.project-container {
+  text-align: center;
+  width: 21.875rem;
+}
+
+.project-container p {
+  padding: 0.4rem;
+}
+
+
+.project-card {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--primary-shadow);
+  padding: 20px;
+  margin: 10px;
+}
+
 .flex-container {
 	justify-content: center;
-  /* flex-direction: column; */
   justify-content: space-evenly;
 }
 
@@ -243,92 +263,60 @@ h3 {
     font-size: 10px;
 }
 
-/* .card {
-  /* Add shadows to create the "card" effect */
-  /* box-shadow: 0 4px 8px 0 rgba(143, 143, 104, 0.2); */
-  /* transition: 0.3s; */
-  
-/* } */
-
-/* On mouse-over, add a deeper shadow */
-/* .card:hover { */
-  /* box-shadow: 0 8px 16px 0 rgba(230, 222, 8, 0.2); */
-/* } */
-
-/* Add some padding inside the card container */
-/* .container { */
-  /* padding: 2px 16px; */
-/* } */ 
 
 
 
-.projects {
-  /* background-color: yellow; */
-  padding: 5px 20px 50px;
-}
-
-.project-pic {
-  width: 65%;
-  height: 60%;
-}
-
-.projects-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* .projects-title {
-  text-align: center;
-  margin-bottom: 1rem;
-} */
-
-.project-container {
-  text-align: center;
-  width: 21.875rem;
-  /* padding: 1rem; */
-}
-
-.project-container p {
-  padding: 0.4rem;
-}
-
-
-.project-card {
-  background-color: #fff;
-  border-radius: 11px;
-  box-shadow: 0 3px 10px var(--primary-shadow);
-  padding: 20px;
-  margin: 10px;
-}
 
 
 @media screen and (max-width: 480px) {
   body {
     display: block;
     font-size: 10px;
+    
   }
 
-  footer {
-    background-color: rgb(85, 46, 65);
+  article {
+    background-color:rgb(161, 130, 150);
     height: 500px;
-    /* font-size: 50px; */
     text-align: center;
-    align-items: center;
     display: grid;
     justify-content: space-evenly;
-    
-    
-}
-/* 
-article {
-  background-color:rgb(161, 130, 150);
-  height: 400px;
-  text-align: center;
-  display: grid;
-  justify-content: space-evenly;
-  text-align: center;
-  align-items: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
 
-} */
-}
+    }
+    .skill-icon {
+      justify-content: space-between;
+      margin: 10px;
+    
+    }
+    article > div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      width: 5rem;
+    } 
+
+
+  footer {
+    text-align: center;
+    align-items: center;
+  }
+
+  .projects-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .project-container {
+    text-align: center;
+    width: 11rem;
+  }
+
+  h1 {
+    font-size: 40px;
+  }}

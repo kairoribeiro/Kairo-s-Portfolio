@@ -24,23 +24,6 @@ cardContainer.innerHTML = projectMarkup
 
 
 
-// Work Buttons
-
-// document.getElementById("work1Btn").onclick = function () {
-//     location.href = "";
-// };
-
-// document.getElementById("work2Btn").onclick = function () {
-//     location.href = "https://kairo1.netlify.app/"; 
-// };
-
-// document.getElementById("work3Btn").onclick = function () {
-//     location.href = "";
-// };
-
-
-
-
 // // Dark mode
 
 const lightDarkBtn = document.querySelector("#light-dark-button")
@@ -66,8 +49,6 @@ checkDarkPref()
 
 
 
-
-
 //Button back to top
 
 const topBtn = document.getElementById("to-top")
@@ -75,28 +56,3 @@ const toTop = () => window.scrollTo({top: 0, behavior: 'smooth'})
 
 topBtn.addEventListener('click', toTop)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// 
-
-// function toTop() {
-//   window.scrollTo({top: 0, behavior: 'smooth'});
-// }
-
-
-// document.documentElement.scrollTop = 0;

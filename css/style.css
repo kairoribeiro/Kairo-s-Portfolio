@@ -89,7 +89,7 @@ nav div a:before {
   transition: all .4s;
 }
 
-a:hover {
+nav > div > a:hover {
     color: blue;
     font-size: 20px;
 }

@@ -3,8 +3,8 @@
 <h2>Kairo Ribeiro's Web Page</h2>
 
 
-*[Deployed link](https://prismatic-cuchufli-d013a1.netlify.app/)*. <br>
-*[Trello planning](https://trello.com/b/j8wRFEy3/kairo-ribeiros-portfolio)*.
+*[Deployed link](https://prismatic-cuchufli-d013a1.netlify.app/)* <br>
+*[Trello planning](https://trello.com/b/j8wRFEy3/kairo-ribeiros-portfolio)*
 
 ![WebPage!](/data/main-view.png "Main View")
 

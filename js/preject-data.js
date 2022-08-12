@@ -15,10 +15,10 @@ let projectData = [
     },
 
     {
-        title: 'FUTURE PROJECT',
-        deployment: '',
-        github:'',
-        image: '/data/under-construction.png'
+        title: 'Beanie Babies Collector',
+        deployment: 'https://beanie-babies-collector.herokuapp.com/',
+        github:'https://github.com/kairoribeiro/beanie-babies-collector',
+        image: '/data/beaniebabies.png'
     }
 
 ]

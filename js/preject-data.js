@@ -19,6 +19,13 @@ let projectData = [
         deployment: 'https://beanie-babies-collector.herokuapp.com/',
         github:'https://github.com/kairoribeiro/beanie-babies-collector',
         image: '/data/beaniebabies.png'
+    },
+
+    {
+        title: 'Calculator',
+        deployment: '',
+        github:'https://github.com/kairoribeiro/calculator',
+        image: '/data/calculator.png'
     }
 
 ]
